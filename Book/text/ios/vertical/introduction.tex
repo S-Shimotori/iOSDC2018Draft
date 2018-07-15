@@ -1,0 +1,22 @@
+本章では，iOSで文字列の縦書きを試みる．iOSでの描画には通常UIKitを用いる．UIKitではラベルの描画のために{\sf UILabel}クラスが用意されている．
+
+\begin{lstlisting}[language=swift,caption=Plainモードの{\sf UILabel},label=lst:ios/vertical/uilabel_and_string]
+let label = UILabel()
+label.backgroundColor = .white
+label.textColor = .gray
+label.text = "フォントと組版の30分入門"
+label.sizeToFit()
+\end{lstlisting}
+
+\begin{lstlisting}[language=swift,caption=Attributedモードの{\sf UILabel},label=lst:ios/vertical/uilabel_and_nsattributedstring]
+let label = UILabel()
+let attributed = NSMutableAttributedString(string: "フォントと組版の30分入門")
+attributed.addAttribute(.foregroundColor, value: UIColor.gray, range: NSRange(location: 0, length: 7))
+attributed.addAttribute(.backgroundColor, value: UIColor.white, range: NSRange(location: 0, length: 13))
+label.attributedText = attributed
+label.sizeToFit()
+\end{lstlisting}
+
+プログラム\ref{lst:ios/vertical/uilabel_and_string}とプログラム\ref{lst:ios/vertical/uilabel_and_nsattributedstring}は{\sf UILabel}の使用例である．{\sf UILabel}は，{\sf text}プロパティに{\sf String}({\sf NSString})を渡すとPlainモードに，{\sf attributedText}プロパティに{\sf NSAttributedString}を渡すとAttributedモードになる\cite{developer.apple.com:documentation/uikit/uilabel}．
+{\sf NSAttributedString}の属性キー{\sf NSAttributedString.Key}には文字列の方向を定める{\sf verticalGlyphForm}があるが，iOSでは常に横書きとされるため値を設定しても縦書きにならない\footnote{{\sf verticalGlyphForm}そのものはiOS 6.0以降で使える．iOS6って2012年なんだけどなぁ．}\cite{developer.apple.com:documentation/foundation/nsattributedstring/key/1528658-verticalglyphform}．
+
