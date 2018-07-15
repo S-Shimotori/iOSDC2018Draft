@@ -1,0 +1,12 @@
+最も簡単に縦書きにする方法は，{\sf UILabel}の幅をなるべく小さくすることで1文字ずつ改行させる方法である(プログラム\ref{lst:ios/vertical/uiLabelWidth/example})．
+
+\begin{lstlisting}[language=swift,caption={\sf UILabel}の幅を縮小することによる縦書きの実現,label=lst:ios/vertical/uiLabelWidth/example]
+let label = UILabel()
+label.text = "30 minutes Introduction to Font and Typesetting"
+label.font = UIFont(name: "Courier", size: 17)
+label.numberOfLines = 0
+label.frame = CGRect(x: 0, y: 0, width: 17, height: 500)
+\end{lstlisting}
+
+システムフォントのSan Francisco\footnote{正確にはSan Francisco Pro DisplayもしくはSan Francisco Pro Text．20pt以上でDisplayに，20pt未満でTextになる\cite{developer.apple.com:design/human-interface-guidelines/ios/visual-design/typography/}．}は等幅ではないため，Courierなどの等幅フォントにすることである程度綺麗に見せることができる．いずれにせよ，全角文字と半角文字が混ざった文字列や拗音は正しい位置に表示されない．
+
