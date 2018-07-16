@@ -1,0 +1,28 @@
+# References
+
+## tmp
+
+* [はじめに 英中韓組版ルールブック](http://www.morisawa.co.jp/fonts/multilingual/typesetting/pdf/introduction_multilingualtypesetting_1802.pdf)
+* [韓国語 英中韓組版ルールブック](http://www.morisawa.co.jp/fonts/multilingual/typesetting/pdf/kr_multilingualtypesetting_1802.pdf)
+* [띄어쓰기の意味：分かち書き、ティオスギ _ 韓国語 Kpedia](http://www.kpedia.jp/w/9604)
+* [pTeXと多言語処理 - TeX Wiki](https://texwiki.texjp.org/?pTeX%E3%81%A8%E5%A4%9A%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86)
+* [ArabTeX - Wikipedia](https://ja.wikipedia.org/wiki/ArabTeX)
+* [カシーダ - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%83%BC%E3%83%80)
+* [アラビア語版およびヘブライ語版の機能（InDesign）](https://helpx.adobe.com/jp/indesign/using/arabic-hebrew.html)
+* [Core Text | Apple Developer Documentation](https://developer.apple.com/documentation/coretext)
+* [UILabel - UIKit | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uilabel)
+* [Views and Controls | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/views_and_controls)
+* [Swift - iosの縦書きについて(40691)｜teratail](https://teratail.com/questions/40691)
+* [verticalGlyphForm - NSAttributedString.Key | Apple Developer Documentation](https://developer.apple.com/documentation/foundation/nsattributedstring/key/1528658-verticalglyphform)
+* [iphone - How to draw vertical text in UILabel - Stack Overflow](https://stackoverflow.com/questions/9628680/how-to-draw-vertical-text-in-uilabel)
+* [San Francisco フォントを探る - Qiita](https://qiita.com/usagimaru/items/da88c0a8793f23633c28#sf-pro-vs-sf-ui)
+* [About Text Handling in iOS](https://developer.apple.com/library/archive/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009542)
+* [フォント用語集 | 文字の手帖 | 株式会社モリサワ](http://www.morisawa.co.jp/culture/dictionary/)
+* [MORISAWA FONT DICTIONARY Ver3.0](http://www.morisawa.co.jp/files/catalog/fonts/MFD3.pdf)
+* [Re: CSS の  left/right/top/bottom と縦書きの関係について from MURAKAMI Shinyu on 2010-07-11 (public-html-ig-jp@w3.org from July 2010)](http://lists.w3.org/Archives/Public/public-html-ig-jp/2010Jul/0027.html)
+* [TextKit Best Practices - WWDC 2018 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2018/221/)
+* [ios - Why are UIFont and CGFont/CTFont separated completely? - Stack Overflow](https://stackoverflow.com/questions/5799128/why-are-uifont-and-cgfont-ctfont-separated-completely)
+* [Core Text | Apple Developer Documentation](https://developer.apple.com/documentation/coretext)
+* [uchuugaka/LTCoreText: Lightweight paging text view using CoreText suitable for Book App](https://github.com/uchuugaka/LTCoreText)
+* [はてなブックマーク - iOSとCoreTextに関するWatsonのブックマーク](http://b.hatena.ne.jp/Watson/iOS/CoreText/)
+* [Bidirectionality - Material Design](https://material.io/design/usability/bidirectionality.html)
