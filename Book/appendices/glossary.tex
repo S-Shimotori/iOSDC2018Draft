@@ -34,8 +34,10 @@
     \item[Font(フォント)]
     \item[Font fallback]
     \item[Font Family]
+    \item[Fount]同一ボディとデザインの文字・記号のグループ\cite{www.f.waseda.jp/yukis/hpb/hpb2006.1.html}
+\item[Fount scheme(フォントスキーム)]一文字一文字バラバラの活字を組んでいた金属活字時代では，アルファベットの活字はキャラクターひと揃えで販売されていた。各キャラクターの活字の本数の割合は活字鋳造所ごとに決められており，その本数の配当表をフォントスキームという。このフォントスキームにより決定した活字一揃えをfount(UK)といい，現在一般にいわれているfount(US)はこれに由来する\cite{handbook_of_typography}。
     \item[full-width(全角)]
-    \item[Glyph(グリフ)]字体とほぼ同義語ですが、記述記号やスペースなども含めたものを指します。慣用的にはデータとしての字体を指す場合に使われることもあります。これらの文字と記号類を集めたものがグリフセットと呼ばれるもので、これは文字セットや文字コレクションとほぼ同義と考えてよいでしょう。 A glyph is the smallest displayable unit in a font. A glyph may represent one character, more than one character, or part of a character. The mapping of characters to glyphs is not simple—it can be many-to-many. In addition, the order and position of glyphs in a line is complex\cite{developer.apple.com:library/archive/documentation/MacOSX/Conceptual/BPInternational/InternationalizingYourCode/InternationalizingYourCode.html}.
+    \item[Glyph(グリフ)]字体とほぼ同義語ですが、記述記号やスペースなども含めたものを指します。慣用的にはデータとしての字体を指す場合に使われることもあります。これらの文字と記号類を集めたものがグリフセットと呼ばれるもので、これは文字セットや文字コレクションとほぼ同義と考えてよいでしょう。 A glyph is the smallest displayable unit in a font. A glyph may represent one character, more than one character, or part of a character. The mapping of characters to glyphs is not simple—it can be many-to-many. In addition, the order and position of glyphs in a line is complex\cite{developer.apple.com:library/archive/documentation/MacOSX/Conceptual/BPInternational/InternationalizingYourCode/InternationalizingYourCode.html}.今日使用している「文字関係のイメージ」すべてをグリフという。文字は時代を経て，文章を組み立てるために人々が多くの候補から様々に使用することによって，変化し，淘汰され，限定されたかたちとなった。グリフの分類として，ラテンアルファベットの他に，句読点，通貨記号，数字および数字記号，分音符記号つきラテン文字，ギリシャ文字，キリル文字などがある\cite{handbook_of_typography}。
     \item[half em(二分)]
     \item[half em space(二分アキ)]
     \item[half-width]
@@ -48,11 +50,12 @@
     \item[JIS2004]
     \item[JIS X 0213：2004]
     \item[JIS文字セット]
-    \item[Kerning]
+    \item[Kerning]隣り合った二つの文字間を調節するもので，かつての切り貼りでの文字詰めと同じ機能\cite{handbook_of_typography}。
     \item[Leading]
     \item[letter face(字面)]
     \item[letterpress printing(活字組版)]
-    \item[Ligature]
+    \item[letter spacing]一つ一つの文字と文字の間のこと。一般に間隔を詰めると単語の黒みが増し，空きすぎるとまとまりがなくなり読みにくくなる。通常，本文はあらかじめ決められたnormal setの設定で組むことが多い。ノーマルセットのアキは「0」で「ベタ」ともいい，そこを基準にunitの数値でアキやツメを指定できるともいい，そこを基準にunitの数値でアキやツメを指定できる\cite{handbook_of_typography}。
+    \item[Ligature(合字)]隣り合った二つの文字が脈略のあるかたちとして自然にみえるようできたグリフ．ASCIIコードのグリフにある，常識的に使用すべきリガチャーはfi，fl，ffのspellが出たとき。これは，金属活字ではこのような組み合わせまたはこれらを複合させた組み合わせの場合，単独の文字で組むとkernedされた部分と接したり重なってしまうので，連字となった文字を使用していたためである。現在はデジタルなので文字が重なったところが異様なかたちとして残るだけであるが，リガチャーに差し替えることが望ましい\cite{handbook_of_typography}。
     \item[line adjustment(行の調整処理)]
     \item[line adjustment by hanging punctuation(ぶら下げ組)]
     \item[line adjustment by inter-character space expansion(追出し処理)] 組版では，行頭・行末・分離禁止にかかった文字・約物を調整するために次行の字間・約物の前後を詰めて移動させることを指す．字間を調整することになる\cite{www.jpp.co.jp:yougo/a1.html}．
@@ -70,6 +73,7 @@
     \item[Line height]
     \item[line length(行長)]
     \item[line-start prohibition rule(行頭禁則)]
+    \item[lorem ipsum]略してlipsumともいう。38言語に対応しているダミーテキストで，文章の内容に集中しないようにあえて意味をもたない文章になっている。もともとギリシャ語が引き合いに出されていたことから，このような意味をもたない文章をgreekingというが，lipsumはその典型的なもの。Aldus PageMakerのテンプレートに使用されて以降，ほとんどこれが使用されている\cite{handbook_of_typography}。Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum\cite{www.lipsum.com}.
     \item[matrix(母型)]
     \item[mixed text composition(混植)]
     \item[Monospace(等幅)]
@@ -86,6 +90,7 @@
     \item[paragraph break(改行)]
     \item[paragraph format(段落整形)]
     \item[PDF]
+    \item[point]通常はPointという単位を使用する。Pointは歴史的に数々あり，一般に日本で多く使用されているJohnson Pica Point，アメリカで古く使用されたHawks Point，ヨーロッパで使用されるDidot Pointなどがある。また，フランスのPierre Simon Fournierが基礎を作ったポイントシステムの一部が残っている。現在，通常DTPに使用されているPostScript Pointは，1985年にAdobe社とApple社により決議されたもので，国際的に基準となっている\cite{handbook_of_typography}。
     \item[Post Script]
     \item[printing types(活字)]
     \item[proportional(プロポーショナル)]
@@ -93,15 +98,16 @@
     \item[quarter em space(四分アキ)]
     \item[quarter em width(四分角)]
     \item[Serif]
+    \item[side bearing]
     \item[single line alignment method(そろえ)]
     \item[solid setting(ベタ組)]
-    \item[space(アキ)]
+    \item[space(アキ)]活版印刷の時代，ワードスペースやラインスペースなど印刷されない隙間を作るために，スペースやインテルなどの込めものが使われていた。込めものは活字の高さよりも低く作られているため印刷されない\cite{handbook_of_typography}。
     \item[stem]
     \item[tab setting(タブ処理)]
     \item[tall script]アクセント記号や声調記号の関係でline heightが他の言語の文字より高くなっているもの．文字全体が表示されるように余裕を持っておく必要がある\cite{developer.apple.com:videos/play/wwdc2016/201/}．この手の文字を太字にすると重くなってしまうので太字にはしないほうがいいらしい\cite{material.io:design/typography/language-support.html}．
     \item[text direction(組方向)]
     \item[Tightening]
-    \item[Tracking]
+    \item[Tracking]文字列全体あるいは特定の行だけを一定感覚に文字間を詰める[または空ける]場合に使用する，等間隔の字送り処理機能\cite{handbook_of_typography}。
     \item[True Type Font]
     \item[Truncation]
     \item[Typeface(書体)]
@@ -109,6 +115,7 @@
     \item[typesetting(組版)] 原稿に基づいて活字を組み，最終的には版を作るまでの作業および完成した版．手動，機械さらにはコンピュータであっても，組版という表現は使われている．手動，機械さらにはコンピュータであっても，組版という表現は使われている\cite{lis_dictionary}．1970年代からはコンピュータによる組版が普及した\cite{www.printing-museum.org:communication/column/pdf/column_6.pdf}．
     \item[Typography]
     \item[unbreakable characters rule(分割禁止)]
+    \item[unit]すべてのレターフォームはそれぞれの字幅をもつ。金属活字の時代はすべて違っていたといっても過言ではないが，機械化されるにつれ，字幅はunitの倍数に限定され分類されてきた。写植時代に，emを全角として18unitに分割し，すべてのキャラクターを縦割りにして4から18unitに当てはめた。文字の大きさに関わらず，このunitで字幅に対して字間，語間を決定していく\cite{handbook_of_typography}。
     \item[vertical writing(縦書き)] 日本語ではおなじみ縦書き．アジア圏でよく見られるっぽい．top to bottomとも\cite{eikaiwa.dmm.com:uknow/questions/29852/}\cite{www.w3.org:International/questions/qa-scripts}．CSSの{\sf writing-mode}プロパティでは，CJK用に{\sf vertical-rl}が，モンゴル語用に{\sf vertical-lr}が用意されている\cite{www.w3.org:International/articles/vertical-text/}．
     \item[vertical writing mode(縦組)]
     \item[Weight(ウェイト)]
