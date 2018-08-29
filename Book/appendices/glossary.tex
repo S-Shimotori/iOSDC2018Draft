@@ -37,7 +37,7 @@
     \item[Fount]同一ボディとデザインの文字・記号のグループ\cite{www.f.waseda.jp/yukis/hpb/hpb2006.1.html}
 \item[Fount scheme(フォントスキーム)]一文字一文字バラバラの活字を組んでいた金属活字時代では，アルファベットの活字はキャラクターひと揃えで販売されていた。各キャラクターの活字の本数の割合は活字鋳造所ごとに決められており，その本数の配当表をフォントスキームという。このフォントスキームにより決定した活字一揃えをfount(UK)といい，現在一般にいわれているfount(US)はこれに由来する\cite{handbook_of_typography}。
     \item[full-width(全角)]
-    \item[Glyph(グリフ)]字体とほぼ同義語ですが、記述記号やスペースなども含めたものを指します。慣用的にはデータとしての字体を指す場合に使われることもあります。これらの文字と記号類を集めたものがグリフセットと呼ばれるもので、これは文字セットや文字コレクションとほぼ同義と考えてよいでしょう。 A glyph is the smallest displayable unit in a font. A glyph may represent one character, more than one character, or part of a character. The mapping of characters to glyphs is not simple—it can be many-to-many. In addition, the order and position of glyphs in a line is complex\cite{developer.apple.com:library/archive/documentation/MacOSX/Conceptual/BPInternational/InternationalizingYourCode/InternationalizingYourCode.html}.今日使用している「文字関係のイメージ」すべてをグリフという。文字は時代を経て，文章を組み立てるために人々が多くの候補から様々に使用することによって，変化し，淘汰され，限定されたかたちとなった。グリフの分類として，ラテンアルファベットの他に，句読点，通貨記号，数字および数字記号，分音符記号つきラテン文字，ギリシャ文字，キリル文字などがある\cite{handbook_of_typography}。
+    \item[Glyph(グリフ)]字体とほぼ同義語ですが、記述記号やスペースなども含めたものを指します。慣用的にはデータとしての字体を指す場合に使われることもあります。これらの文字と記号類を集めたものがグリフセットと呼ばれるもので、これは文字セットや文字コレクションとほぼ同義と考えてよいでしょう。 A glyph is the smallest displayable unit in a font. A glyph may represent one character, more than one character, or part of a character. The mapping of characters to glyphs is not simple—it can be many-to-many. In addition, the order and position of glyphs in a line is complex\cite{developer.apple.com:library/archive/documentation/MacOSX/Conceptual/BPInternational/InternationalizingYourCode/InternationalizingYourCode.html}.今日使用している「文字関係のイメージ」すべてをグリフという。文字は時代を経て，文章を組み立てるために人々が多くの候補から様々に使用することによって，変化し，淘汰され，限定されたかたちとなった。グリフの分類として，ラテンアルファベットの他に，句読点，通貨記号，数字および数字記号，分音符記号つきラテン文字，ギリシャ文字，キリル文字などがある\cite{handbook_of_typography}。表記体系上必要な句読点や括弧類、スペースなど、「意味や音を持たない図形記号などの抽象化を含めたもの」と文字体系を合わせて〈グリフ glyph〉といいます。グリフは字体とほぼ同義語ですが対象とする範囲が異なります\cite{introduction_to_japanese_typesetting}。
     \item[half em(二分)]
     \item[half em space(二分アキ)]
     \item[half-width]
@@ -126,21 +126,24 @@
     \item[かべ]
     \item[基本版面]
     \item[ゴシック体]
-    \item[字形]
-    \item[字体]
+    \item[字形]JIS X 0208では〈字形〉を、「手書き、印字、画面表示などによって実際に図形として表現したもの」と定義しており、字体を目に見える形にしたものを指します\cite{introduction_to_japanese_typesetting}。
+    \item[字種]
+    \item[字体]JIS X 0208では〈字体〉を「図形文字の図形表現としての形状についての抽象的概念」と定義しています。これは視覚化する前の文字の骨組みの抽象概念のことを指します\cite{introduction_to_japanese_typesetting}。
     \item[字取り]
     \item[字面]
     \item[字面枠]
-    \item[書体]
+    \item[書体]字形に一定の様式・デザインを施したものを〈書体〉といいます\cite{introduction_to_japanese_typesetting}。ある一貫した様式でデザインされた文字の集まりを「書体」という\cite{mdn_201507}。
     \item[縦中横]
     \item[詰め組]
     \item[天付き]
     \item[同行見出し]
-    \item[フォント]
+    \item[表記体系]文字体系に加えて、正書法、句読法、字体・語句などの選択規則や基準などの言語的慣習を含む文字使用の体系を〈表記体系 writing system〉と呼びます——文字体系・書記系・書字系・書字システムとも。同じ文字体系を用いていても、異なる言語では表記体系に違いが見られることがあります\cite{introduction_to_japanese_typesetting}。
+    \item[フォント]同じ書体でも作り手、時代によって個性が違い、この時代を「書風」ということがありますが、これが一般に〈フォント font〉と呼ばれているものです。フォントは、本来「同じサイズで、デザインの同じ活字のひと揃い（大文字・小文字・イタリック・スモールキャップ・数字など）」を指しますが、現在は書体データの意味で使用されています——このフォントが指すそれぞれを書体ということもある\cite{introduction_to_japanese_typesetting}。もともとフォントとは、同じ書体、サイズの欧文の金属活字のワンセットのことを指す。が、今は欧文、日本語書体ともにフォントはデータ化されている\cite{mdn_201507}。
     \item[プロポーショナルメトリクス]
     \item[ペアカーニング情報]
     \item[ベタ組み]
     \item[丸ゴシック体]
     \item[明朝体]
+    \item[文字体系]文字において発生的、歴史的な一つのまとまりを形作る集合を〈文字体系 script〉と呼びます——書記系・用字系とも。文字体系はアラビア文字、キリル文字、ラテン文字、漢字の表記や使用法のように、言語と一対一に対応しないことがあり、複数の言語で使用される文字体系が多数存在します\cite{introduction_to_japanese_typesetting}。
 \end{description}
 
